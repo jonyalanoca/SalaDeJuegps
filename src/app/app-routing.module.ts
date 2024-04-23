@@ -5,7 +5,7 @@ import {AutenticacionComponent} from '../app/components/autenticacion/autenticac
 import { ErrorComponent } from './components/error/error.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/dash',pathMatch: "full"},
+  { path: '', redirectTo: '/autentication',pathMatch: "full"},
   { path: 'autentication', component: AutenticacionComponent },
   { path:'dash', component:DashboardComponent},
   { path:'**', component:ErrorComponent}

@@ -25,8 +25,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule,
     FormsModule,
     AppRoutingModule,
-    provideFirebaseApp(() => initializeApp({"projectId":"fire-auth-angular-61ef7","appId":"1:1057249748866:web:94434a71b05bcfd9c3919b","storageBucket":"fire-auth-angular-61ef7.appspot.com","apiKey":"AIzaSyDZVPiV1vk9DH47HEInNmvTLp3meB66o_U","authDomain":"fire-auth-angular-61ef7.firebaseapp.com","messagingSenderId":"1057249748866"})),
-    provideAuth(() => getAuth())
+    // provideFirebaseApp(() => initializeApp({"projectId":"fire-auth-angular-61ef7","appId":"1:1057249748866:web:94434a71b05bcfd9c3919b","storageBucket":"fire-auth-angular-61ef7.appspot.com","apiKey":"AIzaSyDZVPiV1vk9DH47HEInNmvTLp3meB66o_U","authDomain":"fire-auth-angular-61ef7.firebaseapp.com","messagingSenderId":"1057249748866"})),
+    provideAuth(() => getAuth()),
+    provideFirebaseApp(() => initializeApp({"projectId":"labofireangularauth","appId":"1:32782728599:web:250b40df9e26a56da8d8d2","storageBucket":"labofireangularauth.appspot.com","apiKey":"AIzaSyAw1Vm4xkB6k_UvKJMm3cBECoowd3gGhBs","authDomain":"labofireangularauth.firebaseapp.com","messagingSenderId":"32782728599"}))
   ],
   providers: [],
   bootstrap: [AppComponent]
