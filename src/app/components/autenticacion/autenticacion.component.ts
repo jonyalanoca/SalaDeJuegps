@@ -33,6 +33,7 @@ export class AutenticacionComponent {
 
 
   login() {
+    debugger;
     this.userService.login(this.usuario)
       .then(response => 
         this.router.navigate(['/dash'])
